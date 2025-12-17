@@ -84,32 +84,6 @@ A registry of all your sketches with metadata:
 - **main_file**: Entry point file (usually main.cpp)
 - **status**: working, in-progress, broken, etc.
 
-## 📝 Example Sketch Template
-
-```cpp
-#include "raylib.h"
-
-int main() {
-    const int screenWidth = 800;
-    const int screenHeight = 600;
-    
-    InitWindow(screenWidth, screenHeight, "My Sketch");
-    SetTargetFPS(60);
-    
-    while (!WindowShouldClose()) {
-        BeginDrawing();
-        ClearBackground(BLACK);
-        
-        // Your drawing code here
-        
-        EndDrawing();
-    }
-    
-    CloseWindow();
-    return 0;
-}
-```
-
 ## 🔧 Build Modes
 
 - **Debug** (`debug`): Includes debugging symbols, no optimization

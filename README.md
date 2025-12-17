@@ -1,7 +1,9 @@
 # C++ Raylib Sketches
 
-A collection of creative coding sketches using C++ and Raylib.
 
+![Circles](https://github.com/user-attachments/assets/c2b850f5-9db1-4842-9fff-90fcbde4b89a)
+
+A collection of creative coding sketches using C++ and Raylib.
 ## 📁 Project Structure
 
 ```

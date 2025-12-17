@@ -1,0 +1,63 @@
+# Compiled executables
+**/main
+**/a.out
+*.exe
+*.out
+
+# Debug symbols
+**/*.dSYM/
+*.dSYM
+
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+
+# IDE and Editor files
+**/.vscode/
+**/.cache/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Compilation database (auto-generated)
+**/compile_commands.json
+
+# Build directories
+**/build/
+**/bin/
+**/obj/
+
+# Git directories in subdirectories (keep only parent .git)
+**/.git/
+!/.git/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# macOS specific
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Personal notes (optional)
+notes.txt
+TODO.txt

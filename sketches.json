@@ -1,0 +1,11 @@
+{
+  "sketches": [
+    {
+      "name": "RotatingSquares",
+      "description": "A grid of rotating white squares on black background",
+      "folder": "RotatingSquares",
+      "main_file": "main.cpp",
+      "status": "working"
+    }
+  ]
+}

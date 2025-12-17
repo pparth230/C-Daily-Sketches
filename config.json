@@ -1,0 +1,22 @@
+{
+  "compiler": "clang++",
+  "standard": "c++17",
+  "include_paths": [
+    "/opt/homebrew/include"
+  ],
+  "library_paths": [
+    "/opt/homebrew/lib"
+  ],
+  "libraries": [
+    "raylib"
+  ],
+  "output_name": "main",
+  "compiler_flags": [
+    "-Wall",
+    "-Wextra"
+  ],
+  "optimization": {
+    "debug": "-g",
+    "release": "-O2"
+  }
+}

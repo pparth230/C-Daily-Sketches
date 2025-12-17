@@ -6,6 +6,13 @@
       "folder": "RotatingSquares",
       "main_file": "main.cpp",
       "status": "working"
+    },
+    {
+      "name": "Circles",
+      "description": "New sketch - add description here",
+      "folder": "Circles",
+      "main_file": "main.cpp",
+      "status": "in-progress"
     }
   ]
 }

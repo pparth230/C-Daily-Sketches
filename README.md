@@ -110,11 +110,6 @@ int main() {
 }
 ```
 
-## 🎨 Current Sketches
-
-- **RotatingSquares**: A grid of rotating white squares on black background
-
-
 ## 🔧 Build Modes
 
 - **Debug** (`debug`): Includes debugging symbols, no optimization

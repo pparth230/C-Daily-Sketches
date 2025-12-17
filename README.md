@@ -9,10 +9,10 @@ C++/
 ├── config.json          # Common build configuration
 ├── sketches.json        # Registry of all sketches
 ├── build.sh            # Universal build script
+├── sketch.sh           # Sketch manager utility
 ├── README.md           # This file
+├── .gitignore          # Git ignore rules
 ├── RotatingSquares/    # Individual sketch folder
-│   └── main.cpp
-├── Circles/            # Individual sketch folder
 │   └── main.cpp
 └── [YourNewSketch]/    # Add more sketches here
     └── main.cpp
@@ -37,29 +37,28 @@ cd RotatingSquares
 
 ### Creating a New Sketch
 
-1. **Create a new folder** for your sketch:
-   ```bash
-   mkdir MyNewSketch
-   cd MyNewSketch
-   ```
+**Using the sketch manager (Recommended):**
+```bash
+./sketch.sh new MyNewSketch
+```
 
-2. **Create your `main.cpp`** file with Raylib code
+This automatically creates:
+- ✅ `MyNewSketch/` folder
+- ✅ `MyNewSketch/main.cpp` (blank file - write your code here)
+- ✅ `MyNewSketch/.vscode/` (IDE configuration)
+- ✅ Entry in `sketches.json`
 
-3. **Build and run** using the shared build script:
-   ```bash
-   ../build.sh MyNewSketch
-   ```
+Then just edit `MyNewSketch/main.cpp` and run:
+```bash
+./sketch.sh run MyNewSketch
+```
 
-4. **Register your sketch** (optional) in `sketches.json`:
-   ```json
-   {
-     "name": "MyNewSketch",
-     "description": "Description of what it does",
-     "folder": "MyNewSketch",
-     "main_file": "main.cpp",
-     "status": "working"
-   }
-   ```
+**Other sketch.sh commands:**
+```bash
+./sketch.sh list              # List all sketches
+./sketch.sh run SketchName    # Build and run a sketch
+./sketch.sh info SketchName   # Show sketch information
+```
 
 ## ⚙️ Configuration
 
@@ -114,7 +113,7 @@ int main() {
 ## 🎨 Current Sketches
 
 - **RotatingSquares**: A grid of rotating white squares on black background
-- **Circles**: Circle-based sketch (in progress)
+
 
 ## 🔧 Build Modes
 

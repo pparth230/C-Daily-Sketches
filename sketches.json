@@ -13,6 +13,13 @@
       "folder": "Circles",
       "main_file": "main.cpp",
       "status": "in-progress"
+    },
+    {
+      "name": "GridCircles",
+      "description": "New sketch - add description here",
+      "folder": "GridCircles",
+      "main_file": "main.cpp",
+      "status": "in-progress"
     }
   ]
 }

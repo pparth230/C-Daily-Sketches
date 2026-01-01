@@ -20,6 +20,13 @@
       "folder": "GridCircles",
       "main_file": "main.cpp",
       "status": "in-progress"
+    },
+    {
+      "name": "Hackel_01",
+      "description": "New sketch - add description here",
+      "folder": "Hackel_01",
+      "main_file": "main.cpp",
+      "status": "in-progress"
     }
   ]
 }

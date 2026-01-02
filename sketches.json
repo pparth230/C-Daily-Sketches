@@ -27,6 +27,13 @@
       "folder": "Hackel_01",
       "main_file": "main.cpp",
       "status": "in-progress"
+    },
+    {
+      "name": "ASMI",
+      "description": "New sketch - add description here",
+      "folder": "ASMI",
+      "main_file": "main.cpp",
+      "status": "in-progress"
     }
   ]
 }

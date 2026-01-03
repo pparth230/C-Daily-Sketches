@@ -1,8 +1,10 @@
 # C++ Raylib Sketches
 
 
-<img src="https://github.com/user-attachments/assets/c2b850f5-9db1-4842-9fff-90fcbde4b89a" width="300">
-<img src="https://github.com/user-attachments/assets/72e1be85-9e12-4e8a-ac74-b9ebf0b14574" width="300">
+<img src="https://github.com/user-attachments/assets/c2b850f5-9db1-4842-9fff-90fcbde4b89a" width="150">
+<img src="https://github.com/user-attachments/assets/72e1be85-9e12-4e8a-ac74-b9ebf0b14574" width="150">
+<img src="https://github.com/user-attachments/assets/279bc21c-d730-4464-8001-8c739951adee" width="150">
+
 
 A collection of creative coding sketches using C++ and Raylib.
 ## 📁 Project Structure

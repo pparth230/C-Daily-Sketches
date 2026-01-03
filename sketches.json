@@ -34,6 +34,13 @@
       "folder": "ASMI",
       "main_file": "main.cpp",
       "status": "in-progress"
+    },
+    {
+      "name": "PerlinFlowField",
+      "description": "New sketch - add description here",
+      "folder": "PerlinFlowField",
+      "main_file": "main.cpp",
+      "status": "in-progress"
     }
   ]
 }

@@ -41,6 +41,13 @@
       "folder": "PerlinFlowField",
       "main_file": "main.cpp",
       "status": "in-progress"
+    },
+    {
+      "name": "SineCosWaves",
+      "description": "Harmonic visual symphony with 6 wave visualization modes: horizontal sine waves, vertical cosine waves, circular ripples, Lissajous curves, wave particles, and interference patterns",
+      "folder": "SineCosWaves",
+      "main_file": "main.cpp",
+      "status": "working"
     }
   ]
 }
